@@ -1,0 +1,19 @@
+20221002	11:42:44	fe7fdef6-0ba6-4c5e-bb45-baf5ade45f48	Not allowed by CORS
+20221002	11:47:22	a7771c7e-26d6-43ff-8b84-554996af69b7	Error: Not allowed by CORS
+20221002	13:27:07	3f11658c-b9cd-46ed-b9ff-5a2e95af0f22	Error: ENOENT: no such file or directory, stat 'C:\Users\muler\Desktop\Programming\node-practice\dave grey\routes\views\new-page.html'
+20221003	13:14:34	55154397-b7b0-402b-a049-0f242289fe13	TypeError: res.status(...).message is not a function
+20221003	13:25:44	4bc559b7-7350-4b66-bd15-b3211a8f29b2	RangeError: Invalid status code: undefined
+20221003	13:26:14	1af25a37-586e-4790-abfa-987851ed3511	RangeError: Invalid status code: undefined
+20221003	13:26:15	fad9a6ea-40a4-4051-b704-cb4fd67612ef	RangeError: Invalid status code: undefined
+20221003	13:26:48	a7197b64-8cee-4d9f-87e0-6eb5b3c63e31	RangeError: Invalid status code: undefined
+20221003	13:27:55	40186152-6149-499a-8b35-6aeabe373d18	RangeError: Invalid status code: undefined
+20221003	13:28:44	4356c586-3d35-430c-afcb-c2c9a75fdc11	RangeError: Invalid status code: undefined
+20221003	13:28:45	213db7cc-8cc8-489f-b28b-fa67b0c6fe32	RangeError: Invalid status code: undefined
+20221003	13:34:37	e34ac7d5-2f45-4ed7-a340-7bf000e03a08	RangeError: Invalid status code: undefined
+20221003	13:35:43	09237ef1-cab2-41d1-9f31-3dc1c360526f	RangeError: Invalid status code: undefined
+20221003	13:35:43	1e912f51-8bfd-4783-8a55-3d1c5c4c6065	RangeError: Invalid status code: undefined
+20221003	13:39:19	d754a49f-649b-4242-bc54-041387390edd	RangeError: Invalid status code: undefined
+20221003	13:40:23	e7b2aafd-6556-4690-95d0-6c3f540341f1	RangeError: Invalid status code: undefined
+20221003	13:53:50	f6229032-9eb5-4405-89bd-f675261c23d6	TypeError: newEmployee is not iterable
+20221003	13:54:46	b3f1843d-af86-4960-a299-0b7cc481702a	TypeError: data.setEmployees(...).append is not a function
+20221003	13:55:02	6b705b27-d764-4b7b-8c8a-753231bd0218	TypeError: [(...data.employees)].append is not a function
