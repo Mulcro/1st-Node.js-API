@@ -4,6 +4,8 @@ const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
 const app = express();
 const {logger} = require('./middleware/logEvents.js');
+const verifyJWT = require('./middleware/verifyJWT');
+const cookieParser = require('cookie-parser');
 const errorHandler = require('./middleware/errorHandler.js');
 const PORT = process.env.PORT || 3500;
 
@@ -22,10 +24,18 @@ app.use(express.json());
 //middleware that allows us to handle static files
 app.use(express.static(path.join(__dirname,'public')));
 
+//middleware to pare cookies
+app.use(cookieParser());
+
 //app
 app.use('/', require('./routes/routes'));
 app.use('/register',require('./routes/register'));
 app.use('/auth',require('./routes/auth'));
+app.use('/refresh',require('./routes/refresh'));
+
+//Protecting all employee routes with jwt
+app.use(verifyJWT);
+
 app.use('/employees', require('./routes/api/employees'));
 
 app.get('/hello(.html)?', (req,res,next) => {
