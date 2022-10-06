@@ -60,6 +60,7 @@ const deleteEmployee = (req,res) => {
 
 const getEmployee = (req,res)=> {
     const employee = data.employees.find(emp => emp.id === parseInt(req.params.id));
+    console.log(employee);
     if(!employee) return res.status(404).json({"message":`The Employee with ID ${req.params.id} not found`});
     res.json(employee);
 }

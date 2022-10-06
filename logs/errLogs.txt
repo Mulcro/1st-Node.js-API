@@ -17,3 +17,4 @@
 20221003	13:53:50	f6229032-9eb5-4405-89bd-f675261c23d6	TypeError: newEmployee is not iterable
 20221003	13:54:46	b3f1843d-af86-4960-a299-0b7cc481702a	TypeError: data.setEmployees(...).append is not a function
 20221003	13:55:02	6b705b27-d764-4b7b-8c8a-753231bd0218	TypeError: [(...data.employees)].append is not a function
+20221005	14:46:27	417f0e1a-3b11-490e-b319-f11f4085509d	Error: secretOrPrivateKey must have a value
